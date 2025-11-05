@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(231, 231, 231);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box-container {
+    background-color: #caf0f8;
+    width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.box-container h2 {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.food-image img {
+    width: 55%;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.contact p {
+    margin: 5px 0;
+    font-weight: 600;
+}
+.number {
+    font-weight: 500;
+}
+.email {
+    font-weight: 600;
+    font-size: 17px;
+}
+.address {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+}

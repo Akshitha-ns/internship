@@ -1,0 +1,52 @@
+body {
+    background-color:rgb(231, 231, 231);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.box-container {
+    background-color: #caf0f8;
+    width: 400px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+}
+
+.box-container h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#9f212c ;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.food-image img {
+    width: 45%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.contact p {
+    margin: 3px 0;
+    font-weight:600;
+}
+
+.number {
+    font-weight: 500;
+}
+
+.email {
+    color: rgba(54, 54, 240, 0.986);
+    font-weight: 600;
+    font-size: 18px;
+}
+.address {
+    margin-top: 30px;
+    font-size: 16px;
+}
