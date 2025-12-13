@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.pdf-btn {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.page {
+    width: 210mm;
+    height: 297mm;
+    background: white;
+    margin: 20px auto;
+    padding: 20mm;
+    box-sizing: border-box;
+    position: relative;
+    page-break-after: always;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.subtitle {
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+main {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.center {
+    text-align: center;
+}
+
+.sign {
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 6px;
+    vertical-align: top;
+}
+
+footer {
+    position: absolute;
+    bottom: 15mm;
+    left: 20mm;
+    right: 20mm;
+    border-top: 1px solid #000;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.footer-company {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer-details {
+    font-size: 10.5px;
+    margin-top: 3px;
+}
+
+@media print {
+    body {
+        background: white;
+    }
+    .pdf-btn {
+        display: none;
+    }
+}
